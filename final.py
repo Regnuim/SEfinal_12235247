@@ -17,7 +17,7 @@ def get_current_weather(api_key, city):
         return {"error": response.status_code, "message": response.reason}
 
 # Replace 'your_api_key' with your actual Weatherbit API key
-api_key = '4d35846726f442febc5b5b4ae41ec7bd	'
+api_key = '4d35846726f442febc5b5b4ae41ec7bd'
 city = 'New York'
 
 weather_data = get_current_weather(api_key, city)
